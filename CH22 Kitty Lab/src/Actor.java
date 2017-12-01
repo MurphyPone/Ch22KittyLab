@@ -47,7 +47,7 @@ public abstract class Actor
    * Adds msg to this Actor's mailbox.
    */
   public void receive(Message msg) {
-   
+	  mailbox.add(msg);
   }
 
   /**
